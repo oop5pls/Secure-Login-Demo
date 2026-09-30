@@ -1,0 +1,17 @@
+{
+    "name": "tester",
+    "private": true,
+    "scripts": {
+        "db:capture": "npx supabase db remote commit",
+        "db:migrate": "npx supabase db push"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cookie-parser": "^1.4.7",
+        "dotenv-cli": "^11.0.0",
+        "supabase": "^2.117.0"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "^1.4.10"
+    }
+}

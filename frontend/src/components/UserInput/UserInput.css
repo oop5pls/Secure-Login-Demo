@@ -1,0 +1,164 @@
+.user-form {
+  width: min(100%, 34rem);
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 50px rgb(20 33 61 / 12%);
+}
+
+.heading h1 {
+  margin: .2rem 0 .5rem;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+
+.heading p {
+  margin: 0;
+  color: #667085;
+}
+
+.eyebrow {
+  color: #2d6a9f !important;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: .78rem;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+label {
+  display: grid;
+  gap: .45rem;
+  font-weight: 600;
+  color: #344054;
+}
+
+label span {
+  color: #98a2b3;
+  font-weight: 400;
+}
+
+input {
+  width: 100%;
+  padding: .72rem .85rem;
+  border: 1px solid #d0d5dd;
+  border-radius: .55rem;
+  outline-color: #2d6a9f;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  border-radius: .55rem;
+  padding: .8rem 1rem;
+  color: white;
+  background: #2d6a9f;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background: #21547f;
+}
+
+.secondary-button {
+  margin-top: .7rem;
+  color: #344054;
+  background: #eaecf0;
+}
+
+.secondary-button:hover {
+  background: #d0d5dd;
+}
+
+.secondary-button {
+  margin-top: 0.75rem;
+}
+
+.error {
+  color: #b42318;
+  margin: 1rem 0 0;
+}
+
+.edit-form {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eaecf0;
+}
+
+.edit-form h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.saved-users {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eaecf0;
+}
+
+.saved-users h2 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.saved-users ul {
+  display: grid;
+  gap: .65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.saved-users li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .8rem;
+  background: #f8fafc;
+  border-radius: .55rem;
+}
+
+.saved-users li>div:first-child {
+  display: grid;
+  gap: .2rem;
+}
+
+.saved-users span {
+  color: #667085;
+  white-space: nowrap;
+}
+
+.user-actions {
+  display: flex;
+  gap: .5rem;
+}
+
+.user-actions button {
+  width: auto;
+  padding: .45rem .7rem;
+}
+
+.delete-button {
+  background: #b42318;
+}
+
+.delete-button:hover {
+  background: #8f1c13;
+}
+
+@media (max-width: 30rem) {
+  .user-form {
+    padding: 1.5rem;
+  }
+
+  .fields {
+    grid-template-columns: 1fr;
+  }
+}

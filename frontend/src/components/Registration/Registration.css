@@ -1,0 +1,15 @@
+.registration-theme {
+  border-top: 8px solid #2e7d32;
+}
+
+.registration-theme .eyebrow {
+  color: #2e7d32 !important;
+}
+
+.registration-theme button {
+  background: #2e7d32;
+}
+
+.registration-theme button:hover {
+  background: #1b5e20;
+}

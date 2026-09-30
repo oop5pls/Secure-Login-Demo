@@ -1,0 +1,27 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+#internal markdowns
+AGENTS.md
+SECURITY_PROGRESS.md
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+#Dev tools
+.agents
+.hermes
+.postman
+.qwen
+postman/
+skills-lock.json
